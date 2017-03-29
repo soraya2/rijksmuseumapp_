@@ -15,9 +15,8 @@
     "node",
     "rijksmuseum"
   ],
-  "engines":{
+  "engines": {
     "node": "5.7.0"
-
   },
   "author": "Soraya Ibrahim",
   "license": "MIT",
@@ -26,6 +25,7 @@
   },
   "homepage": "https://github.com/soraya2/funda-serverside",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
     "nodemon": "^1.11.0"
