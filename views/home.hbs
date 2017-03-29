@@ -1,0 +1,31 @@
+<h1>Home</h1>
+<div id="search">
+        <header>
+              <h1>Who is your favorite painter?</h1>
+        </header>
+
+          <form method="post" action="/search" class="search-form">
+            <input type="text" name="search[value]"id="userInput" enctype="multipart/form-data" required>
+            <input type="submit" id="submit" class="button">
+          </form>
+          <div id="painting-overview">
+
+          {{#each data.artObjects}}
+
+            <a href= '/details/{{objectNumber}}' id= "{{objectNumber}}" class ="item">
+              {{#if webImage}}
+              <div>
+                <img src="{{webImage.url}}"><img>
+              </div>
+              {{else}}
+                <img src="images/background_black.svg"><img>
+              {{/if}}
+              <div>
+                 <h1>{{principalOrFirstMaker}}</h1>
+                 <p>{{title}}</p>
+              </div>
+            </a>
+          {{/each}}
+          </div>
+      </div>
+</section>

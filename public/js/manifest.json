@@ -1,0 +1,16 @@
+{
+ "short_name": "Rijksmuseum",
+ "name": "Collectie Rijksmuseum",
+ "start_url": "/?homescreen=1",
+ "display": "standalone",
+ "orientation": "portrait",
+ "theme_color": "#ffffff ",
+ "background_color": "#FFFFFF ",
+ "icons": [
+   {
+     "src": "../images/rijksmuseum.png",
+     "sizes": "151×142",
+     "type": "image/png"
+   }
+ ]
+}

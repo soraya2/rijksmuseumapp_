@@ -1,0 +1,40 @@
+{
+  "name": "funda-serverside",
+  "version": "1.0.0",
+  "description": "''",
+  "main": "server.js",
+  "scripts": {
+    "build": "browserify ./public/js/index.js -o ./public/js/bundle.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soraya2/funda-serverside.git"
+  },
+  "keywords": [
+    "node",
+    "rijksmuseum"
+  ],
+  "engines":{
+    "node": "5.7.0"
+
+  },
+  "author": "Soraya Ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soraya2/funda-serverside/issues"
+  },
+  "homepage": "https://github.com/soraya2/funda-serverside",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "browserify": "^14.1.0",
+    "concat-stream": "^1.6.0",
+    "dotenv": "^4.0.0",
+    "watchify": "^3.9.0"
+  }
+}

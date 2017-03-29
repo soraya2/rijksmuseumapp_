@@ -1,0 +1,7 @@
+{
+  "name": "funda-serverside",
+  "description": "An node app that makes it possible to search for paintings in the Rijksmuseum collection",
+  "repository": "https://github.com/soraya2/funda-serverside.git",
+  "keywords": ["node","rijksmuseum"],
+  "image": "heroku/nodejs"
+}
