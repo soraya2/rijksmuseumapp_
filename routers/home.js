@@ -29,7 +29,7 @@ router.post("/", function(req, resp){
 
 function getData(recieve, value){
 
-    https.get('https://www.rijksmuseum.nl/api/nl/collection/?key='+process.env.API_KEY+'&format=json&q='+value, function (res) {
+    https.get('https://www.rijksmuseum.nl/api/nl/collection/?key=LTaH2LtF&format=json&q='+value, function (res) {
     res.pipe(concat(callback));
 
     function callback(argument) {
