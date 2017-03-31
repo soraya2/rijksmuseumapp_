@@ -10,7 +10,7 @@ Regular 3G (300ms, 250kb/s, 50kb/s)
 - **Transfered:** 3.7MB
 - **DOMContentLoaded:** 42.40s
 - **Load:** 72.40s
-![alt tag](https://github.com/soraya2/rijksmuseumapp_s/blob/master/screenshots/performance_start_console.jpg)
+![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_start_console.jpg)
 
 ## js Opitmized
 Bundeld and uglified javascript  
@@ -30,7 +30,7 @@ resized, compressed images, added picture tags and webp format
 - **DOMContentLoaded:** 700ms
 - **Load:** 31.73s
 
-![alt tag](https://github.com/soraya2/performance-matters/blob/master/screenshots/performance_imgoptimize.jpg)
+![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_imgoptimize.jpg)
 
 ## before Google Pagespeed Insight
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_start.jpg)
