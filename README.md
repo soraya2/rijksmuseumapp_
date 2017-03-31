@@ -22,4 +22,9 @@ This command will wil run the application.
 ### bundle js files
 You can bundle js files by running the browsify command.
 
-    npm build
+    npm run build
+
+### ngrok to expose local host
+To create a link for the browser.
+
+    npm run expose
