@@ -1,11 +1,11 @@
-<h1>Home</h1>
 <div id="search">
           <header>
-              <h1>Who is your favorite painter?</h1>
+            <h1>Rijksmuseum collectie</h1>
           </header>
 
           <form method="post" action="/search" class="search-form">
-            <input type="text" name="search[value]"id="userInput" enctype="multipart/form-data" required>
+          <label>Search</label>
+            <input type="text" name="search[value]"id="userInput" enctype="multipart/form-data" placeholder= "Who is your favorite painter?" required>
             <input type="submit" id="submit" class="button">
           </form>
           <div id="painting-overview">
@@ -22,7 +22,7 @@
                 </div>
               {{/if}}
               <div>
-                 <h1>{{principalOrFirstMaker}}</h1>
+                 <h2>{{principalOrFirstMaker}}</h2>
                  <p>{{title}}</p>
               </div>
             </a>
