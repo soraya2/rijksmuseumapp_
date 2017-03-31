@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "browserify ./public/js/index.js -o ./public/js/bundle.js",
+    "uglify": "uglify ./public/js/bundle.js ",
     "start": "nodemon server.js"
   },
   "repository": {
