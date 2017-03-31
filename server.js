@@ -1,12 +1,17 @@
 var express =  require('express');
 var path = require('path');
 var hbs = require('express-handlebars');
-var app = express();
 var bodyParser = require('body-parser');
 var home = require('./routers/home');
 var details = require('./routers/details');
+var compress = require('compression');
+var app = express();
 
-app.set('port', (process.env.PORT || 3005))
+
+
+app.use(compress());
+
+app.set('port', (process.env.PORT || 3005));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 

@@ -12,9 +12,9 @@
 
           {{#each data.artObjects}}
             <a href= '/details/{{objectNumber}}' id= "{{objectNumber}}" class ="item">
-              {{#if webImage}}
+              {{#if headerImage}}
                   <div class="img">
-                    <img src="{{webImage.url}}"><img>
+                    <img src="{{headerImage.url}}"><img>
                   </div>
               {{else}}
                 <div class="img">
