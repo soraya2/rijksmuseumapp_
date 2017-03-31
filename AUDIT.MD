@@ -1,7 +1,7 @@
 # Optimisation Audit
 
 ## internet speed
-Regular 3G (300ms, 250kb/s, 50kb/s)
+Regular 3G (100ms, 750kb/s, 250kb/s)
 
 
 ## no optimisation
