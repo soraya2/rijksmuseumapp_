@@ -76,7 +76,7 @@ form{
 }
 
 img{
-	width: 80%;
+	width: 100%;
 }
 
 p{
@@ -149,14 +149,21 @@ input[type='text']:focus, input[type='text']:hover{
 
 a div{
 	width: fit-content;
+	text-align: center;
 }
+
 .item{
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 40vw;
-	margin-right: 2em;
-	margin-bottom: 4em;
+	max-width: 46vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
 	background-color: #d3d3d3;
+}
+
+.img{
+	 width: 90%;
 }
 
 #home{
@@ -167,13 +174,19 @@ a div{
 
 #painting-details{
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+
 }
 
 #painting-overview{
   display: inline-flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 67em;
+  justify-content: center;
+  // max-width: 67em;
 }
 
 #home-overview{

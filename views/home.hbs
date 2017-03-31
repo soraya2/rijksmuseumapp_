@@ -1,8 +1,8 @@
 <h1>Home</h1>
 <div id="search">
-        <header>
+          <header>
               <h1>Who is your favorite painter?</h1>
-        </header>
+          </header>
 
           <form method="post" action="/search" class="search-form">
             <input type="text" name="search[value]"id="userInput" enctype="multipart/form-data" required>
@@ -11,14 +11,15 @@
           <div id="painting-overview">
 
           {{#each data.artObjects}}
-
             <a href= '/details/{{objectNumber}}' id= "{{objectNumber}}" class ="item">
               {{#if webImage}}
-              <div>
-                <img src="{{webImage.url}}"><img>
-              </div>
+                  <div class="img">
+                    <img src="{{webImage.url}}"><img>
+                  </div>
               {{else}}
-                <img src="images/background_black.svg"><img>
+                <div class="img">
+                  <img src="images/background_black.svg"><img>
+                </div>
               {{/if}}
               <div>
                  <h1>{{principalOrFirstMaker}}</h1>

@@ -30,6 +30,23 @@ app.get('/', function(req, res){
 });
 
 
+// function requireHTTPS(req, res, next) {
+//     if (!req.secure) {
+//         //FYI this should work for local development as well
+//         var domain = "https://" + req.get("host");
+//         // console.log(process.env["SSL_PORT"]);
+//         if (process.env["SSL_PORT"]) {
+//             domain = domain.replace(/:\d+$/, "");
+//             domain += ":" + process.env["3000"];
+//         }
+//         return res.redirect(domain + req.url);
+//     }
+//     next();
+// }
+
+// app.use(requireHTTPS);
+
+
 app.use('/home', home);
 app.use('/details', details);
 app.use('/search', home);
