@@ -42,8 +42,8 @@ resized, compressed images, added picture tags and webp format
 
 ## Results compared with first test
 
-- **Requests:** -1 requests
-- **Transfered:** -997KB
-- **DOMContentLoaded:** -12.85s
-- **Load:** -34,72s
+- **Requests:** 20 requests
+- **Transfered:** 2.9MB
+- **DOMContentLoaded:** 700ms
+- **Load:** 31,72s
 
