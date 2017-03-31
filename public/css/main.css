@@ -14,13 +14,10 @@ html , body{
   vertical-align: baseline;
 }
 
-
-
 html {
 	font-family:'Open Sans', Helvetica;
 	font-size:18px;
 }
-
 
 body {
 	font-family: "Helvetica Neue", "Helvetica",sans-serif;
@@ -40,7 +37,7 @@ form{
   align-items: center;
   height: 3.5em;
   margin-bottom: 3em;
-  max-width: 65em;
+  width: 89vw;
 }
 
 img{
@@ -50,17 +47,14 @@ img{
 p{
 	text-align: center;
 }
-.hide{
-	display: none;
-}
 
 .button {
 	border-color:rgba(255, 88, 88, 1);
 	border-style:solid;
 	border-width:0.1rem;
 	background-color: rgba(255, 88, 88, 1);
-	color: #ffffff;
-	font-weight: 300;
+	color: #000000;
+	font-weight: 500;
 	width: 30%;
 	font-size:.85em;
 	padding:.35em .75em;
@@ -83,6 +77,18 @@ p{
 input[type='text']:focus, input[type='text']:hover{
 	// box-shadow: 0 0 5px 1px rgba(243, 49, 85, 0.8);
 
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+a:focus{
+	outline-color:rgba(255, 88, 88, 1);
 }
 
 
@@ -119,7 +125,7 @@ a div{
 
 .item{
 	display: flex;
-	flex-wrap: wrap;
+  flex-direction: column;
 	max-width: 46vw;
   justify-content: center;
   align-items: center;
@@ -131,7 +137,6 @@ a div{
 }
 
 #home{
-    // display: block;
     margin: 0 auto;
     max-width: 67em;
 }
@@ -141,8 +146,9 @@ a div{
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-
-
+	width: 35vw;
+	align-self: center;
+	margin: 0 auto;
 }
 
 #painting-overview{
@@ -150,7 +156,6 @@ a div{
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
-  // max-width: 67em;
 }
 
 #home-overview{
@@ -166,4 +171,27 @@ a div{
     border-radius: 0.1rem;
     background: white;
     padding: 1em;
+}
+
+#search{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header h1{
+	font-size: 3em;
+	margin-bottom: 2rem;
+
+}
+
+h2{
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+label{
+	font-weight: 500;
+	margin-right: 0.5em;
+
 }

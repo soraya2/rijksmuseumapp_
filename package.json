@@ -1,5 +1,5 @@
 {
-  "name": "funda-serverside",
+  "name": "rijksmuseum",
   "version": "1.0.0",
   "description": "''",
   "main": "server.js",
@@ -23,9 +23,9 @@
   "author": "Soraya Ibrahim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/soraya2/funda-serverside/issues"
+    "url": "https://github.com/soraya2/rijksmuseum_/issues"
   },
-  "homepage": "https://github.com/soraya2/funda-serverside",
+  "homepage": "https://github.com/soraya2/rijksmuseum_",
   "dependencies": {
     "body-parser": "^1.17.1",
     "compression": "^1.6.2",
