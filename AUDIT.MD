@@ -20,7 +20,7 @@ Bundeld and uglified javascript
 - **DOMContentLoaded:** 40.68s
 - **Load:**  40.68
 
-![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/after_optimzed-js.jpg)
+![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/optimized-js.jpg)
 
 ## optimized images
 resized, compressed images, added picture tags and webp format
